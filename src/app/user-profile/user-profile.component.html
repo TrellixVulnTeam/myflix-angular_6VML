@@ -20,7 +20,7 @@
 
 
     <button id="delete-account-button" mat-button (click)='deleteUser()'
-      style="color: red; background-color: lightpink;">
+      style="color: skyblue; background-color: lightpink;">
       Delete Account
     </button>
   </div>
@@ -32,7 +32,7 @@
       <mat-card *ngFor="let favorite of favorites;" style="flex: 0 1 auto; margin: 10px;">
         <mat-card-actions>
           <mat-icon
-            style="color: red;font-weight: 300; cursor: pointer; right: 0; top: 0; position: absolute; padding: 0;"
+            style="color: skyblue;font-weight: 300; cursor: pointer; right: 0; top: 0; position: absolute; padding: 0;"
             aria-label='Remove Movie from Favorite' (click)='removeFavorites(favorite._id, favorite.Title)'>
             delete_outline
           </mat-icon>
