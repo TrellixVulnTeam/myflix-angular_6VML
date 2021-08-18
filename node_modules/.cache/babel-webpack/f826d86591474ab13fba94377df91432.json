@@ -1,0 +1,1 @@
+{"ast":null,"code":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar isArray_1 = require(\"./isArray\");\n\nfunction isNumeric(val) {\n  return !isArray_1.isArray(val) && val - parseFloat(val) + 1 >= 0;\n}\n\nexports.isNumeric = isNumeric; //# sourceMappingURL=isNumeric.js.map","map":null,"metadata":{},"sourceType":"script"}

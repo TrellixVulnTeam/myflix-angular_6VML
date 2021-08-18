@@ -1,0 +1,24 @@
+.profile-card-container {
+  text-align: center;
+}
+
+h1 {
+border-bottom: 1px solid lightgrey;
+margin-bottom: 40px;
+}
+
+.account-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+margin: 25px;
+}
+button {
+  margin-right: 30px;
+  border: 0.5px solid lightgrey;
+}
+
+.data {
+  font-weight: 700;
+}

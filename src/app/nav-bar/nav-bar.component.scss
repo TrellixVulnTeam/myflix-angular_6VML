@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  background-color: black;
+  margin-bottom: 60px;
+}
+
+.nav-container {
+  width: 80vw;
+  min-width: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links{
+  line-height: 30px;
+  width: 190px;
+}
+
+.nav-links-right {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.nav-title {
+  color: red;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.profile, .logout {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}

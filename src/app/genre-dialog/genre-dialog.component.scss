@@ -1,0 +1,33 @@
+.genre-dialog .mat-dialog-container {
+  width: 700px;
+  min-width: 400px;
+  background-color: rgb(30, 33, 39);
+}
+
+.genre-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+#close-button {
+  align-self: flex-end;
+  color: white;
+  background-color: rgb(27, 29, 36);
+}
+
+.genre-container h1 {
+  color: white;
+  align-self: center;
+}
+
+.genre-container p {
+  color: rgb(130, 141, 153);
+}
+
+.data {
+  font-size: 14px;
+}

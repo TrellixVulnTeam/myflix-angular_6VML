@@ -1,0 +1,18 @@
+<div class='director-container'>
+  <button id="close-button" mat-icon-button color='dark' [mat-dialog-close]='true' style="top:0; right: 0;">
+    <mat-icon>close</mat-icon>
+  </button>
+  <h1>{{data.name}}</h1>
+  <p class="data">{{data.bio}}</p>
+
+  <div class="birth-death-wrapper">
+    <div class="birth">
+      <p>BORN</p>
+      <p class="data">{{data.birth}}</p>
+    </div>
+    <div class="death">
+      <p>DIED</p>
+      <p class="data">{{data.death || "N/A"}}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,51 @@
+.main-page {
+  background-color: darkred;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 450px;
+  background-color: black;
+  border-radius: 2px;
+}
+
+.main-page-title {
+  font-size: 38px;
+  font-weight: 300;
+  color: white;
+  line-height: 50px;
+}
+
+.sub-text {
+  color: lightgrey;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: left;
+  margin-top: 50px;
+}
+
+button {
+  background-color: darkred;
+  color: white;
+  width: 100%;
+  font-weight: 300;
+}
+
+.log-in-wrapper {
+  align-self: flex-start;
+}
+
+.sign-up-wrapper {
+  align-self: flex-end;
+}
+//test
+span {
+  color: red;
+}
